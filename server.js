@@ -116,9 +116,9 @@ app.delete("/person/:id", async(req,res)=>{
 
 
 // // Create a test route:
-// app.get("/", (req,res)=>{
-//     res.json({hello:"World"})
-// })
+app.get("/", (req,res)=>{
+    res.json({hello:"World"})
+})
 
 
 
